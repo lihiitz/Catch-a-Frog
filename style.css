@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+  
+} 
+
+#header{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+#game{
+    background-color: green;
+}
+#bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: indianred;
+}
+
+.start{
+    width: 100%;
+    height: 100%;
+}
+#startBtn{
+    width: 100%;
+    height: 100%;
+    background-color: #8e44ad;
+    font-size: xx-large;
+    color: powderblue;
+}
+#startBtn:hover{
+    background-color:plum;
+}
+.frog{
+    position: absolute;
+    display: inline-block;
+}
+.gameOver{
+    position: relative;
+    display: inline;
+    background-color: thistle;
+    border: solid white;
+    top: 50%;
+    left: 50%;
+}
