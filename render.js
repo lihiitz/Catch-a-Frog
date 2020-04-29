@@ -1,5 +1,5 @@
 const Renderer = function () {
-
+     
     const gameSource = $(`#game-template`).html()
     const gameTemplate = Handlebars.compile(gameSource)
 

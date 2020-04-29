@@ -17,8 +17,8 @@
 <body>
     <div id="container">
         <div id="header">
-            <!-- Frogs Game -->
             <script id="header-template" type="text/x-handlebars-template">
+                Frogs Game
                 <div style="color: {{color}};">{{time}} seconds left</div>
             </script>
 
@@ -26,12 +26,12 @@
         <div id="game">
                 <script id="game-template" type="text/x-handlebars-template">
                     <div class="frog" data-id= {{id}} style="color: {{color}}; top: {{top}}; left: {{left}};">
-                        <i class="fas fa-frog fa-{{size}}"></i>
+                        <i class="fas fa-frog" style="font-size: {{size}};"></i>
                     </div>
                 </script>
 
                 <script id="gameOver-template" type="text/x-handlebars-template">
-                <h1 class="gameOver">Game Over</h1>
+                <p class="gameOver">Game Over</p>
             </script>
         </div>
 
